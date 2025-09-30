@@ -1,69 +1,61 @@
 import turtle
 
+VERTICAL_MOVE = 100
+HORIZONTAL_MOVE = 25
+NUM_SEGMENTS = 9
 
-def perform_switch_case(state, t, turn):
-    x = round(t.position()[0] / 10)
-    y = round(t.position()[1] / 10)
-    num_turns = 5
+def perform_wave_move(state, t, segments_drawn):
+    if segments_drawn >= NUM_SEGMENTS:
+        t.hideturtle()
+        return "STOP", segments_drawn
 
-    if state == "LEFT":
-        t.forward(10)  # Перемещение
-
-        if x <= -turn:
-            state = "DOWN"
-            t.setheading(270)  # Разворот вниз
-            return state, turn
-        return state, turn
-    if state == "DOWN":
-        t.forward(10)  # Перемещение
-
-        if y <= -turn:
-            state = "RIGHT"
-            t.setheading(0)  # Разворот вправо
-            return state, turn
-        return state, turn
-    if state == "RIGHT":
-        t.forward(10)  # Перемещение
-
-        if x >= turn:
-            state = "UP"
-            t.setheading(90)  # Разворот вверх
-            turn = turn + 1  # Начало нового витка
-            return state, turn
-        return state, turn
     if state == "INIT":
+        t.penup()
+        t.goto(0, 0)
+        t.pendown()
+        return "DOWN", segments_drawn
 
-        if True:
-            state = "UP"
-            t.setheading(90)  # Разворот вверх
-            return state, turn
-        return state, turn
+    if state == "DOWN":
+        t.setheading(270)
+        t.forward(VERTICAL_MOVE)
+        segments_drawn += 1
+        return "RIGHT_U", segments_drawn
+
+    if state == "RIGHT_U":
+        t.setheading(0)
+        t.forward(HORIZONTAL_MOVE)
+        segments_drawn += 1
+        return "UP", segments_drawn
+    
     if state == "UP":
-        t.forward(10)  # Перемещение
+        t.setheading(90)
+        t.forward(VERTICAL_MOVE)
+        segments_drawn += 1
+        return "RIGHT_D", segments_drawn
 
-        if y >= turn:
-            state = "LEFT"
-            t.setheading(180)  # Разворот влево
-            return state, turn
-        if turn > num_turns:
-            state = "STOP"
-            return state, turn
-        return state, turn
-    return state, turn
+    if state == "RIGHT_D":
+        t.setheading(0)
+        t.forward(HORIZONTAL_MOVE)
+        segments_drawn += 1
+        return "DOWN", segments_drawn
 
+    return state, segments_drawn
 
-def draw():
+def draw_wave_pattern():
     start_state = "INIT"
     end_state = "STOP"
     curr_state = start_state
+    
     t = turtle.Turtle()
-    t.speed(0)
-    turn = 1
+    t.speed(3)
+    t.width(3)
+
+    segments_drawn = 0
 
     while curr_state != end_state:
-        curr_state, turn = perform_switch_case(curr_state, t, turn)
+        curr_state, segments_drawn = perform_wave_move(curr_state, t, segments_drawn)
+    
     turtle.done()
 
-
-if  __name__ == "__main__":
-    draw()
+if __name__ == "__main__":
+    draw_wave_pattern()
