@@ -1,7 +1,7 @@
 import turtle
 
-VERTICAL_MOVE = 100
-HORIZONTAL_MOVE = 25
+VERTICAL = 100
+HORIZONTAL = 25
 NUM_SEGMENTS = 9
 
 def perform_wave_move(state, t, segments_drawn):
@@ -17,25 +17,25 @@ def perform_wave_move(state, t, segments_drawn):
 
     if state == "DOWN":
         t.setheading(270)
-        t.forward(VERTICAL_MOVE)
+        t.forward(VERTICAL)
         segments_drawn += 1
         return "RIGHT_U", segments_drawn
 
     if state == "RIGHT_U":
         t.setheading(0)
-        t.forward(HORIZONTAL_MOVE)
+        t.forward(HORIZONTAL)
         segments_drawn += 1
         return "UP", segments_drawn
     
     if state == "UP":
         t.setheading(90)
-        t.forward(VERTICAL_MOVE)
+        t.forward(VERTICAL)
         segments_drawn += 1
         return "RIGHT_D", segments_drawn
 
     if state == "RIGHT_D":
         t.setheading(0)
-        t.forward(HORIZONTAL_MOVE)
+        t.forward(HORIZONTAL)
         segments_drawn += 1
         return "DOWN", segments_drawn
 
