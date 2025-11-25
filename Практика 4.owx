@@ -1,0 +1,901 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Click"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RadioButton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Screen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Select"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Step"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TextField"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#View"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#•_action_precedes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#•_has_state"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#•_interacts_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#•_is_part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#•_is_reason_for"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#•_is_target_action_for"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#•_materializes_into"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#•_precedes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#•_triggers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#codename"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#action_address_select"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#action_cart_click"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#action_checkout_click"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#action_confirm_click"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#action_payment_select"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#interface_address_radio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#interface_address_screen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#interface_cart_button"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#interface_cart_screen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#interface_checkout_button"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#interface_confirm_button"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#interface_confirm_screen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#interface_payment_radio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#interface_payment_screen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kazan_express_user"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#need_delivery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#step_confirm_order"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#step_open_cart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#step_proceed_checkout"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#step_select_address"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#step_select_payment"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Button"/>
+        <Class IRI="#Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Click"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RadioButton"/>
+        <Class IRI="#Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Screen"/>
+        <Class IRI="#Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Select"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TextField"/>
+        <Class IRI="#Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#View"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Select"/>
+        <NamedIndividual IRI="#action_address_select"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Click"/>
+        <NamedIndividual IRI="#action_cart_click"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Click"/>
+        <NamedIndividual IRI="#action_checkout_click"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Click"/>
+        <NamedIndividual IRI="#action_confirm_click"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Select"/>
+        <NamedIndividual IRI="#action_payment_select"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RadioButton"/>
+        <NamedIndividual IRI="#interface_address_radio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Screen"/>
+        <NamedIndividual IRI="#interface_address_screen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Button"/>
+        <NamedIndividual IRI="#interface_cart_button"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Screen"/>
+        <NamedIndividual IRI="#interface_cart_screen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Button"/>
+        <NamedIndividual IRI="#interface_checkout_button"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Button"/>
+        <NamedIndividual IRI="#interface_confirm_button"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RadioButton"/>
+        <NamedIndividual IRI="#interface_payment_radio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Screen"/>
+        <NamedIndividual IRI="#interface_payment_screen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#User"/>
+        <NamedIndividual IRI="#kazan_express_user"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reason"/>
+        <NamedIndividual IRI="#need_delivery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Step"/>
+        <NamedIndividual IRI="#step_confirm_order"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Step"/>
+        <NamedIndividual IRI="#step_open_cart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Step"/>
+        <NamedIndividual IRI="#step_proceed_checkout"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Step"/>
+        <NamedIndividual IRI="#step_select_address"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Step"/>
+        <NamedIndividual IRI="#step_select_payment"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_materializes_into"/>
+        <NamedIndividual IRI="#action_address_select"/>
+        <NamedIndividual IRI="#step_select_address"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_materializes_into"/>
+        <NamedIndividual IRI="#action_cart_click"/>
+        <NamedIndividual IRI="#step_open_cart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_materializes_into"/>
+        <NamedIndividual IRI="#action_checkout_click"/>
+        <NamedIndividual IRI="#step_proceed_checkout"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_materializes_into"/>
+        <NamedIndividual IRI="#action_confirm_click"/>
+        <NamedIndividual IRI="#step_confirm_order"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_materializes_into"/>
+        <NamedIndividual IRI="#action_payment_select"/>
+        <NamedIndividual IRI="#step_select_payment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_interacts_with"/>
+        <NamedIndividual IRI="#interface_address_radio"/>
+        <NamedIndividual IRI="#action_address_select"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_interacts_with"/>
+        <NamedIndividual IRI="#interface_cart_button"/>
+        <NamedIndividual IRI="#action_cart_click"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_interacts_with"/>
+        <NamedIndividual IRI="#interface_checkout_button"/>
+        <NamedIndividual IRI="#action_checkout_click"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_interacts_with"/>
+        <NamedIndividual IRI="#interface_confirm_button"/>
+        <NamedIndividual IRI="#action_confirm_click"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_interacts_with"/>
+        <NamedIndividual IRI="#interface_payment_radio"/>
+        <NamedIndividual IRI="#action_payment_select"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_is_reason_for"/>
+        <NamedIndividual IRI="#need_delivery"/>
+        <NamedIndividual IRI="#need_delivery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_is_reason_for"/>
+        <NamedIndividual IRI="#step_confirm_order"/>
+        <NamedIndividual IRI="#need_delivery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_precedes"/>
+        <NamedIndividual IRI="#step_confirm_order"/>
+        <NamedIndividual IRI="#step_select_payment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_is_reason_for"/>
+        <NamedIndividual IRI="#step_proceed_checkout"/>
+        <NamedIndividual IRI="#need_delivery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_precedes"/>
+        <NamedIndividual IRI="#step_proceed_checkout"/>
+        <NamedIndividual IRI="#step_open_cart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_is_reason_for"/>
+        <NamedIndividual IRI="#step_select_address"/>
+        <NamedIndividual IRI="#need_delivery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_precedes"/>
+        <NamedIndividual IRI="#step_select_address"/>
+        <NamedIndividual IRI="#step_proceed_checkout"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_is_reason_for"/>
+        <NamedIndividual IRI="#step_select_payment"/>
+        <NamedIndividual IRI="#need_delivery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#•_precedes"/>
+        <NamedIndividual IRI="#step_select_payment"/>
+        <NamedIndividual IRI="#step_select_address"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#action_address_select"/>
+        <Literal>Выбор адреса доставки</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#action_cart_click"/>
+        <Literal>Нажатие на корзину</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#action_checkout_click"/>
+        <Literal>Нажатие на оформление заказа</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#action_confirm_click"/>
+        <Literal>Нажатие на подтверждение заказа</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#action_payment_select"/>
+        <Literal>Выбор способа оплаты</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codename"/>
+        <NamedIndividual IRI="#interface_address_radio"/>
+        <Literal>addressOption</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#interface_address_radio"/>
+        <Literal>Радиокнопка Адрес доставки</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codename"/>
+        <NamedIndividual IRI="#interface_address_screen"/>
+        <Literal>addressScreen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#interface_address_screen"/>
+        <Literal>Экран Выбора адреса</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codename"/>
+        <NamedIndividual IRI="#interface_cart_button"/>
+        <Literal>cartButton</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#interface_cart_button"/>
+        <Literal>Кнопка Корзина</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codename"/>
+        <NamedIndividual IRI="#interface_cart_screen"/>
+        <Literal>cartScreen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#interface_cart_screen"/>
+        <Literal>Экран Корзины</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codename"/>
+        <NamedIndividual IRI="#interface_checkout_button"/>
+        <Literal>checkoutButton</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#interface_checkout_button"/>
+        <Literal>Кнопка Оформить заказ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codename"/>
+        <NamedIndividual IRI="#interface_confirm_button"/>
+        <Literal>confirmOrderButton</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#interface_confirm_button"/>
+        <Literal>Кнопка Подтвердить заказ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codename"/>
+        <NamedIndividual IRI="#interface_payment_radio"/>
+        <Literal>paymentOption</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#interface_payment_radio"/>
+        <Literal>Радиокнопка Способ оплаты</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codename"/>
+        <NamedIndividual IRI="#interface_payment_screen"/>
+        <Literal>paymentScreen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#interface_payment_screen"/>
+        <Literal>Экран Выбора оплаты</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#kazan_express_user"/>
+        <Literal>Пользователь Kazan Express</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#need_delivery"/>
+        <Literal>Открытие корзины</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#step_confirm_order"/>
+        <Literal>Подтверждение заказа</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#step_proceed_checkout"/>
+        <Literal>Переход к оформлению</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#step_select_address"/>
+        <Literal>Выбор адреса доставки&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#step_select_payment"/>
+        <Literal>Выбор способа оплаты</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#•_action_precedes"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#•_has_state"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#•_interacts_with"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#•_is_part_of"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#•_is_reason_for"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#•_is_target_action_for"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#•_materializes_into"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#•_precedes"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#•_triggers"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty IRI="#•_has_state"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#•_action_precedes"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#•_has_state"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#•_interacts_with"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#•_is_part_of"/>
+        <Class IRI="#Interface"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#•_is_reason_for"/>
+        <Class IRI="#Reason"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#•_is_target_action_for"/>
+        <Class IRI="#Step"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#•_materializes_into"/>
+        <Class IRI="#Step"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#•_precedes"/>
+        <Class IRI="#Step"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#•_triggers"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#•_action_precedes"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#•_has_state"/>
+        <Class IRI="#Reason"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#•_interacts_with"/>
+        <Class IRI="#Interface"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#•_is_part_of"/>
+        <Class IRI="#Interface"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#•_is_reason_for"/>
+        <Class IRI="#Step"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#•_is_target_action_for"/>
+        <Class IRI="#Reason"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#•_materializes_into"/>
+        <Class IRI="#Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#•_precedes"/>
+        <Class IRI="#Step"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#•_triggers"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#•_action_precedes"/>
+        <ObjectProperty IRI="#•_has_state"/>
+        <ObjectProperty IRI="#•_interacts_with"/>
+        <ObjectProperty IRI="#•_is_part_of"/>
+        <ObjectProperty IRI="#•_is_reason_for"/>
+        <ObjectProperty IRI="#•_is_target_action_for"/>
+        <ObjectProperty IRI="#•_materializes_into"/>
+        <ObjectProperty IRI="#•_precedes"/>
+        <ObjectProperty IRI="#•_triggers"/>
+    </DisjointObjectProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#codename"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#codename"/>
+        <Class IRI="#Interface"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DisjointDataProperties>
+        <DataProperty IRI="#codename"/>
+        <DataProperty IRI="#name"/>
+    </DisjointDataProperties>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Step"/>
+                <Variable IRI="/s"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#•_materializes_into"/>
+                <Variable IRI="/s"/>
+                <NamedIndividual IRI="#action_address_select"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#•_interacts_with"/>
+                <NamedIndividual IRI="#action_address_select"/>
+                <Variable IRI="/i"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#codename"/>
+                <Variable IRI="/i"/>
+                <Literal>addressOption</Literal>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Event"/>
+                <Variable IRI="/e"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#name"/>
+                <Variable IRI="/e"/>
+                <Literal>addressOption_select</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#•_triggers"/>
+                <NamedIndividual IRI="#action_address_select"/>
+                <Variable IRI="/e"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Step"/>
+                <Variable IRI="/s"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#•_materializes_into"/>
+                <Variable IRI="/s"/>
+                <NamedIndividual IRI="#action_cart_click"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#•_interacts_with"/>
+                <NamedIndividual IRI="#action_cart_click"/>
+                <Variable IRI="/i"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#codename"/>
+                <Variable IRI="/i"/>
+                <Literal>cartButton</Literal>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Event"/>
+                <Variable IRI="/e"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#name"/>
+                <Variable IRI="/e"/>
+                <Literal>cartButton_click</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#•_triggers"/>
+                <NamedIndividual IRI="#action_cart_click"/>
+                <Variable IRI="/e"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Step"/>
+                <Variable IRI="/s"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#•_materializes_into"/>
+                <Variable IRI="/s"/>
+                <NamedIndividual IRI="#action_checkout_click"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#•_interacts_with"/>
+                <NamedIndividual IRI="#action_checkout_click"/>
+                <Variable IRI="/i"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#codename"/>
+                <Variable IRI="/i"/>
+                <Literal>checkoutButton</Literal>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Event"/>
+                <Variable IRI="/e"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#name"/>
+                <Variable IRI="/e"/>
+                <Literal>checkoutButton_click</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#•_triggers"/>
+                <NamedIndividual IRI="#action_checkout_click"/>
+                <Variable IRI="/e"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S5</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Step"/>
+                <Variable IRI="/s"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#•_materializes_into"/>
+                <Variable IRI="/s"/>
+                <NamedIndividual IRI="#action_confirm_click"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#•_interacts_with"/>
+                <NamedIndividual IRI="#action_confirm_click"/>
+                <Variable IRI="/i"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#codename"/>
+                <Variable IRI="/i"/>
+                <Literal>confirmOrderButton</Literal>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Event"/>
+                <Variable IRI="/e"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#name"/>
+                <Variable IRI="/e"/>
+                <Literal>confirmOrderButton_click</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#•_triggers"/>
+                <NamedIndividual IRI="#action_confirm_click"/>
+                <Variable IRI="/e"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S4</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Step"/>
+                <Variable IRI="/s"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#•_materializes_into"/>
+                <Variable IRI="/s"/>
+                <NamedIndividual IRI="#action_payment_select"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#•_interacts_with"/>
+                <NamedIndividual IRI="#action_payment_select"/>
+                <Variable IRI="/i"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#codename"/>
+                <Variable IRI="/i"/>
+                <Literal>paymentOption</Literal>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Event"/>
+                <Variable IRI="/e"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#name"/>
+                <Variable IRI="/e"/>
+                <Literal>paymentOption_select</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#•_triggers"/>
+                <NamedIndividual IRI="#action_payment_select"/>
+                <Variable IRI="/e"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

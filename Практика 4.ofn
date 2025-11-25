@@ -1,0 +1,313 @@
+Prefix(:=<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2>
+
+Declaration(Class(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Action>))
+Declaration(Class(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Button>))
+Declaration(Class(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Click>))
+Declaration(Class(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Event>))
+Declaration(Class(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Interface>))
+Declaration(Class(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#RadioButton>))
+Declaration(Class(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Reason>))
+Declaration(Class(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Screen>))
+Declaration(Class(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Select>))
+Declaration(Class(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step>))
+Declaration(Class(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#TextField>))
+Declaration(Class(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Type>))
+Declaration(Class(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#User>))
+Declaration(Class(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#View>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_action_precedes>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_has_state>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_part_of>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_reason_for>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_target_action_for>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_precedes>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_triggers>))
+Declaration(DataProperty(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename>))
+Declaration(DataProperty(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_address_select>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_cart_click>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_checkout_click>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_confirm_click>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_payment_select>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_address_radio>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_address_screen>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_cart_button>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_cart_screen>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_checkout_button>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_confirm_button>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_confirm_screen>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_payment_radio>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_payment_screen>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#kazan_express_user>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#need_delivery>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_confirm_order>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_open_cart>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_proceed_checkout>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_address>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_payment>))
+Declaration(AnnotationProperty(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_action_precedes> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_action_precedes>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_action_precedes> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_action_precedes> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Action>)
+ObjectPropertyRange(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_action_precedes> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Action>)
+DisjointObjectProperties(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_action_precedes> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_has_state> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_part_of> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_reason_for> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_target_action_for> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_precedes> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_triggers>)
+
+# Object Property: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_has_state> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_has_state>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_has_state> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_has_state> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#User>)
+ObjectPropertyRange(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_has_state> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Reason>)
+
+# Object Property: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Action>)
+ObjectPropertyRange(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Interface>)
+
+# Object Property: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_part_of> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_part_of>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_part_of> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_part_of> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Interface>)
+ObjectPropertyRange(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_part_of> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Interface>)
+
+# Object Property: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_reason_for> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_reason_for>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_reason_for> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_reason_for> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Reason>)
+ObjectPropertyRange(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_reason_for> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step>)
+
+# Object Property: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_target_action_for> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_target_action_for>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_target_action_for> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_target_action_for> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step>)
+ObjectPropertyRange(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_target_action_for> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Reason>)
+
+# Object Property: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step>)
+ObjectPropertyRange(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Action>)
+
+# Object Property: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_precedes> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_precedes>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_precedes> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_precedes> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step>)
+ObjectPropertyRange(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_precedes> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step>)
+
+# Object Property: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_triggers> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_triggers>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_triggers> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_triggers> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Action>)
+ObjectPropertyRange(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_triggers> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Event>)
+
+# Object Property: owl:topObjectProperty (owl:topObjectProperty)
+
+SubObjectPropertyOf(owl:topObjectProperty <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_has_state>)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Interface>)
+DisjointDataProperties(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name>)
+
+# Data Property: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> owl:Thing)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Button> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Button>)
+
+SubClassOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Button> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Interface>)
+
+# Class: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Click> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Click>)
+
+SubClassOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Click> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Action>)
+
+# Class: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#RadioButton> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#RadioButton>)
+
+SubClassOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#RadioButton> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Interface>)
+
+# Class: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Screen> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Screen>)
+
+SubClassOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Screen> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Interface>)
+
+# Class: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Select> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Select>)
+
+SubClassOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Select> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Action>)
+
+# Class: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#TextField> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#TextField>)
+
+SubClassOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#TextField> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Interface>)
+
+# Class: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Type> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Type>)
+
+SubClassOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Type> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Action>)
+
+# Class: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#View> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#View>)
+
+SubClassOf(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#View> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Action>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_address_select> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_address_select>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Select> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_address_select>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_address_select> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_address>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_address_select> "Выбор адреса доставки")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_cart_click> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_cart_click>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Click> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_cart_click>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_cart_click> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_open_cart>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_cart_click> "Нажатие на корзину")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_checkout_click> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_checkout_click>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Click> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_checkout_click>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_checkout_click> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_proceed_checkout>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_checkout_click> "Нажатие на оформление заказа")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_confirm_click> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_confirm_click>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Click> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_confirm_click>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_confirm_click> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_confirm_order>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_confirm_click> "Нажатие на подтверждение заказа")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_payment_select> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_payment_select>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Select> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_payment_select>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_payment_select> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_payment>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_payment_select> "Выбор способа оплаты")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_address_radio> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_address_radio>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#RadioButton> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_address_radio>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_address_radio> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_address_select>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_address_radio> "addressOption")
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_address_radio> "Радиокнопка Адрес доставки")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_address_screen> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_address_screen>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Screen> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_address_screen>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_address_screen> "addressScreen")
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_address_screen> "Экран Выбора адреса")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_cart_button> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_cart_button>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Button> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_cart_button>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_cart_button> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_cart_click>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_cart_button> "cartButton")
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_cart_button> "Кнопка Корзина")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_cart_screen> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_cart_screen>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Screen> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_cart_screen>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_cart_screen> "cartScreen")
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_cart_screen> "Экран Корзины")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_checkout_button> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_checkout_button>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Button> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_checkout_button>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_checkout_button> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_checkout_click>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_checkout_button> "checkoutButton")
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_checkout_button> "Кнопка Оформить заказ")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_confirm_button> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_confirm_button>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Button> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_confirm_button>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_confirm_button> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_confirm_click>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_confirm_button> "confirmOrderButton")
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_confirm_button> "Кнопка Подтвердить заказ")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_payment_radio> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_payment_radio>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#RadioButton> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_payment_radio>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_payment_radio> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_payment_select>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_payment_radio> "paymentOption")
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_payment_radio> "Радиокнопка Способ оплаты")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_payment_screen> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_payment_screen>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Screen> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_payment_screen>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_payment_screen> "paymentScreen")
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#interface_payment_screen> "Экран Выбора оплаты")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#kazan_express_user> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#kazan_express_user>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#User> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#kazan_express_user>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#kazan_express_user> "Пользователь Kazan Express")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#need_delivery> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#need_delivery>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Reason> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#need_delivery>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_reason_for> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#need_delivery> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#need_delivery>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#need_delivery> "Открытие корзины")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_confirm_order> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_confirm_order>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_confirm_order>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_reason_for> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_confirm_order> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#need_delivery>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_precedes> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_confirm_order> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_payment>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_confirm_order> "Подтверждение заказа")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_open_cart> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_open_cart>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_open_cart>)
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_proceed_checkout> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_proceed_checkout>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_proceed_checkout>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_reason_for> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_proceed_checkout> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#need_delivery>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_precedes> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_proceed_checkout> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_open_cart>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_proceed_checkout> "Переход к оформлению")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_address> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_address>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_address>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_reason_for> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_address> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#need_delivery>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_precedes> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_address> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_proceed_checkout>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_address> "Выбор адреса доставки\"")
+
+# Individual: <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_payment> (<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_payment>)
+
+ClassAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_payment>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_is_reason_for> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_payment> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#need_delivery>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_precedes> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_payment> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_address>)
+DataPropertyAssertion(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#step_select_payment> "Выбор способа оплаты")
+
+
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "S3") Body(ClassAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step> Variable(:s)) ObjectPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into> Variable(:s) <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_address_select>) ObjectPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_address_select> Variable(:i)) DataPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> Variable(:i) "addressOption") ClassAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Event> Variable(:e)) DataPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> Variable(:e) "addressOption_select"))Head(ObjectPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_triggers> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_address_select> Variable(:e))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "S1") Body(ClassAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step> Variable(:s)) ObjectPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into> Variable(:s) <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_cart_click>) ObjectPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_cart_click> Variable(:i)) DataPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> Variable(:i) "cartButton") ClassAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Event> Variable(:e)) DataPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> Variable(:e) "cartButton_click"))Head(ObjectPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_triggers> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_cart_click> Variable(:e))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "S2") Body(ClassAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step> Variable(:s)) ObjectPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into> Variable(:s) <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_checkout_click>) ObjectPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_checkout_click> Variable(:i)) DataPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> Variable(:i) "checkoutButton") ClassAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Event> Variable(:e)) DataPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> Variable(:e) "checkoutButton_click"))Head(ObjectPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_triggers> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_checkout_click> Variable(:e))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "S5") Body(ClassAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step> Variable(:s)) ObjectPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into> Variable(:s) <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_confirm_click>) ObjectPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_confirm_click> Variable(:i)) DataPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> Variable(:i) "confirmOrderButton") ClassAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Event> Variable(:e)) DataPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> Variable(:e) "confirmOrderButton_click"))Head(ObjectPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_triggers> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_confirm_click> Variable(:e))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "S4") Body(ClassAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Step> Variable(:s)) ObjectPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_materializes_into> Variable(:s) <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_payment_select>) ObjectPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_interacts_with> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_payment_select> Variable(:i)) DataPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#codename> Variable(:i) "paymentOption") ClassAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#Event> Variable(:e)) DataPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#name> Variable(:e) "paymentOption_select"))Head(ObjectPropertyAtom(<http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#•_triggers> <http://www.semanticweb.org/mymmr/ontologies/2025/10/untitled-ontology-2#action_payment_select> Variable(:e))))
+)
